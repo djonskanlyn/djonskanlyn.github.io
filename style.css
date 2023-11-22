@@ -1,0 +1,83 @@
+* { box-sizing: border-box; }
+body {font-family: Verdana, Arial, sans-serif;
+        margin: 0;
+}
+
+header { background-image: url(header.jpg);
+            background-repeat: no-repeat; 
+            background-size: cover;		 
+}
+            
+            
+/* Name Grid Areas */
+header { grid-area: h; }
+nav    { grid-area: n; }
+main   { grid-area: m; }
+aside  { grid-area: a; }
+footer { grid-area: f; }
+#wrapper {  background-color: #F7F1E3; 
+            color: #0B8781;
+            display: grid;
+            grid-template: 
+            "h "
+            "n "
+            "m"
+            "f" ; }
+
+h1 { text-align: center;
+        color: #F7F1E3;
+        font-size: 300%;
+    text-shadow: 10px 10px 10px #000000;  }
+
+h2 { color: #2c2c54; }
+
+
+
+nav {   font-size: 120%; }
+
+nav ul { padding-left: 0;
+            display: flex; 
+            flex-direction: row; 
+            flex-wrap: wrap; 
+            justify-content: space-around; }	  
+nav ul { list-style-type: none; }
+nav li { width: 20%;
+            min-width: 6em;
+            font-size: 110%;
+            text-align: center;
+            background-color: #003C58; 
+            margin: .5em;
+            padding: .5em; }
+nav a { text-decoration: none;}
+nav a:link { color: #F7F1E3; }
+nav a:visited { color: #B9EDF0; }
+nav a:hover { color: #FFFFFF; }
+
+aside {  display: none;  padding: 1em;}
+img { max-width: 100%;
+        height: auto; }
+main {   padding: 0 1em 1em;    }
+
+footer { text-align: center;
+            font-style: italic;
+            padding: 1em; }
+
+@media (min-width: 38em) {
+        #wrapper { grid-template:
+                    " h   h "
+                    " n   n "
+                    " m   a "
+                    " f   f "
+                    / 60% 40% ; }
+            aside { display: block; }
+}
+@media (min-width: 65em) {
+            nav ul { display: flex; 
+                flex-direction: column; 
+                flex-wrap: nowrap; }
+            #wrapper { grid-template: 
+                        " h   h   h"
+                        " n   m   a"
+                        " f   f   f" 
+                    / 150px 1fr 30%; }
+}
