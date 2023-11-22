@@ -113,3 +113,10 @@ footer {
                     / 150px 1fr 30%; 
                 }
 }
+
+#gallery { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
