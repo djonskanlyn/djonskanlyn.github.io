@@ -24,7 +24,8 @@ footer { grid-area: f; }
     grid-template: 
     "h" 
     "n" 
-    "m" 
+    "m"
+    "a" 
     "f";}
 
 h1 { 
@@ -72,20 +73,17 @@ main { padding: 0 1em 1em; }
 footer { 
     text-align: left;
     font-style: italic;
-    padding: 1em;}
+    padding: 2em;}
 
 @media (min-width: 320px) {
 
         #wrapper { 
             grid-template:
-                " h   h "
-                " n   n "
-                " m   a "
-                " f   f "
-                / 60% 40% ; 
-            }
-
-        aside { display: block; }
+                "h"
+                "n"
+                "m"
+                "a"
+                "f";}
 }
 
 @media (min-width: 600px) {
