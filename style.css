@@ -3,14 +3,12 @@
 
 body {
     font-family: Verdana, Arial, sans-serif;
-    margin: 0;
-}
+    margin: 0;}
 
 header { 
     background-image: url(header.jpg);
     background-repeat: no-repeat; 
-    background-size: cover;		 
-}           
+    background-size: cover;}           
             
 /* Name Grid Areas */
 header { grid-area: h; }
@@ -27,15 +25,13 @@ footer { grid-area: f; }
     "h" 
     "n" 
     "m" 
-    "f"; 
-}
+    "f";}
 
 h1 { 
     text-align: center;
     color: #F7F1E3;
     font-size: 300%;
-    text-shadow: 10px 10px 10px #000000;  
-}
+    text-shadow: 10px 10px 10px #000000;}
 
 h2 { color: #2c2c54; }
 
@@ -47,8 +43,7 @@ nav ul {
     flex-direction: row; 
     flex-wrap: wrap; 
     justify-content: space-around; 
-    list-style-type: none;
-}	  
+    list-style-type: none;}	  
 
 nav li { 
     width: 20%;
@@ -57,8 +52,7 @@ nav li {
     text-align: center;
     background-color: #003C58; 
     margin: .5em;
-    padding: .5em; 
-}
+    padding: .5em;}
 
 nav a { text-decoration: none;}
 nav a:link { color: #F7F1E3; }
@@ -67,23 +61,20 @@ nav a:hover { color: #FFFFFF; }
 
 aside { 
     display: none;  
-    padding: 1em;
-}
+    padding: 1em;}
 
 img { 
     max-width: 100%;
-    height: auto; 
-}
+    height: auto;}
 
 main { padding: 0 1em 1em; }
 
 footer { 
     text-align: center;
     font-style: italic;
-    padding: 1em; 
-}
+    padding: 1em;}
 
-@media (min-width: 38em) {
+@media (min-width: 320px) {
 
         #wrapper { 
             grid-template:
@@ -97,7 +88,7 @@ footer {
         aside { display: block; }
 }
 
-@media (min-width: 65em) {
+@media (min-width: 600px) {
 
             nav ul { 
                 display: flex; 
@@ -116,15 +107,13 @@ footer {
 
 #gallery_wrapper { 
     width: 720px;
-    margin: 0px auto;
-}
+    margin: 0px auto;}
 
 #gallery_entry { 
     width: 300px;
     float: left;
     margin: 25px;
-    height: 250px;
-}
+    height: 250px;}
 
 figure {
     display: block;
@@ -133,15 +122,12 @@ figure {
     background-color: #e7e3d8;
     margin: 0px;
     padding: 25px;
-    text-align: left;
-}
+    text-align: left;}
 
 figure img {
     width: 300px;
     height: 250px;
-    border: 1px solid #d6d6d6;
-}
+    border: 1px solid #d6d6d6;}
 
 figcaption {
-    padding-left: 0px;
-}
+    padding-left: 0px;}
