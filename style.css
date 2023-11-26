@@ -6,7 +6,7 @@ body {
     margin: 0;}
 
 header { 
-    height: 100px;
+    height: 200px;
     background-image: url(images/header.png);
     background-repeat: no-repeat; 
     background-size: cover;}           
@@ -19,7 +19,9 @@ aside  { grid-area: a; }
 footer { grid-area: f; }
 
 #wrapper {  
-    background-color: #F7F1E3; 
+    background-image: url(images/background.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
     color: #0B8781;
     display: grid;
     grid-template: 
