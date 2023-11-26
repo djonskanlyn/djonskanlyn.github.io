@@ -70,7 +70,7 @@ img {
 main { padding: 0 1em 1em; }
 
 footer { 
-    text-align: center;
+    text-align: left;
     font-style: italic;
     padding: 1em;}
 
@@ -105,7 +105,7 @@ footer {
                 }
 }
 
-#gallery_entry { 
+#entry { 
     width: 300px;
     float: left;
     margin: 25px;
