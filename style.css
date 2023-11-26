@@ -18,11 +18,11 @@ main   { grid-area: m; }
 aside  { grid-area: a; }
 footer { grid-area: f; }
 
-#wrapper {  
+#wrapper {
+    position: relative;  
     background-image: url(images/background.png);
     background-repeat: no-repeat; 
     background-size: cover;
-    opacity: 0.5;
     color: #0B8781;
     display: grid;
     grid-template: 
@@ -31,6 +31,20 @@ footer { grid-area: f; }
     "m"
     "a" 
     "f";}
+
+#wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
 
 h1 { 
     text-align: center;
