@@ -118,3 +118,58 @@ figure img {
 
 figcaption {
     padding-left: 0px;}
+
+
+
+
+ /* Tables */
+
+table {
+    width: 100%; /* Makes each table expand to fill its container */
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.table-box {
+    flex: 0 0 48%; /* Adjusts each box to take about half the container's width */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+
+.table-rugby {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.table-rugby th {
+    background-color: #004D40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.table-rugby td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table-rugby tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-rugby tr:hover {
+    background-color: #ddd;
+}
+
+.table-rugby td, .table-rugby th {
+    border: 1px solid #ddd;
+}
+
+
+
