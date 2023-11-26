@@ -128,11 +128,11 @@ footer {
 
 figure {
     display: block;
-    width: 202px;
+    width: 220px;
     height: 170px;
     background-color: #e7e3d8;
     margin: 0px;
-    padding: 9px;
+    padding: 20px;
     text-align: left;
 }
 
