@@ -75,33 +75,26 @@ footer {
     font-style: italic;
     padding: 2em;}
 
-@media (min-width: 320px) {
+    @media (min-width: 38em) {
+        #wrapper { grid-template:
+		            " h   h "
+					" n   n "
+					" m   a "
+					" f   f "
+					/ 60% 40% ; }
+   			aside { display: block; }
+    }
 
-        #wrapper { 
-            grid-template:
-                "h"
-                "n"
-                "m"
-                "a"
-                "f";}
-}
-
-@media (min-width: 600px) {
-
-            nav ul { 
-                display: flex; 
-                flex-direction: column; 
-                flex-wrap: nowrap; 
-            }
-
-            #wrapper { 
-                grid-template: 
-                    " h   h   h"
-                    " n   m   a"
-                    " f   f   f" 
-                    / 150px 1fr 30%; 
-                }
-}
+    @media (min-width: 65em) {
+		  nav ul { display: flex; 
+	           flex-direction: column; 
+	           flex-wrap: nowrap; }
+          #wrapper { grid-template: 
+		             " h   h   h"
+					 " n   m   a"
+					 " f   f   f" 
+			        / 150px 1fr 30%; }
+    }
 
 #entry { 
     width: 300px;
