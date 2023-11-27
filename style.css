@@ -45,7 +45,7 @@ footer { grid-area: f; }
 
 h1 { 
     text-align: center;
-    color: #F7F1E3;
+    color: #F0E8C8;
     font-size: 300%;
     text-shadow: 10px 10px 10px #000000;}
 
@@ -71,7 +71,7 @@ nav li {
     padding: .5em;}
 
 nav a { text-decoration: none;}
-nav a:link { color: #F7F1E3; }
+nav a:link { color: #F0E8C8; }
 nav a:visited { color: #B9EDF0; }
 nav a:hover { color: #FFFFFF; }
 
@@ -121,7 +121,7 @@ figure {
     display: block;
     width: 350px;
     height: 300px;
-    background-color: #e7e3d8;
+    background-color: #F0E8C8;
     margin: 0px;
     padding: 25px;
     text-align: left;}
@@ -129,7 +129,7 @@ figure {
 figure img {
     width: 300px;
     height: 250px;
-    border: 1px solid #d6d6d6;}
+    border: 1px solid #F0E8C8;}
 
 figcaption {
     padding-left: 0px;}
@@ -172,10 +172,6 @@ table {
 .table-rugby td {
     text-align: left;
     padding: 8px;
-}
-
-.table-rugby tr:nth-child(even) {
-    background-color: #f2f2f2;
 }
 
 .table-rugby tr:hover {
