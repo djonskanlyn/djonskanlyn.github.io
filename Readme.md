@@ -2,7 +2,7 @@
 
 The link to the website can be found here: [javascript project website](https://djonskanlyn.github.io/index.html).
 
-The link to the project github can be found here: [javascript project github]((https://github.com/djonskanlyn/djonskanlyn.github.io)).
+The link to the project github can be found here: [javascript project github](https://github.com/djonskanlyn/djonskanlyn.github.io).
 
 The website has a health and fitness theme and has 4 webpages:
 * [home](https://djonskanlyn.github.io/index.html)
