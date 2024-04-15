@@ -2,6 +2,8 @@
 
 The link to the website can be found here: [javascript project website](https://djonskanlyn.github.io/index.html).
 
+The link to the project github can be found here: [javascript project github]((https://github.com/djonskanlyn/djonskanlyn.github.io)).
+
 The website has a health and fitness theme and has 4 webpages:
 * [home](https://djonskanlyn.github.io/index.html)
 * [gallery](https://djonskanlyn.github.io/gallery.html)
@@ -41,7 +43,7 @@ The [FAQs](https://djonskanlyn.github.io/faqs.html) page features 10 questions i
 
 ## Meals Page
 
-The [meals](https://djonskanlyn.github.io/meals.html) page is linked to an [API](https://www.themealdb.com/api.php) that allows users to generate a random recipe, based on selecting a category of recipes to choose from, and clicking the "fetch a random meal" button.
+The [meals](https://djonskanlyn.github.io/meals.html) page is linked to an [API](https://www.themealdb.com/api.php) that allows users to generate a random recipe, based on selecting a category of recipes to choose from, and clicking the "fetch a random meal" button. The name of the recipe, an image of the meal and the cooking instructions will appear.
 
 
 
